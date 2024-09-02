@@ -17,6 +17,24 @@ const config: Config = {
 			}
 		}
 	},
+	daisyui: {
+		themes: [
+			{
+				default: {
+					"primary": "#BE1111",
+					"secondary": "#262525",
+					"primedText": "#555353",
+					"primedFooter": "#272727",
+					"primedService": "#F6B0CA",
+					"footerTextColor": "#EFEBEB",
+					"neutral": "#FFFFFF",
+					"success": "#00FF00",
+					"warning": "#FFCC00",
+					"error": "#FF0000"
+				}
+			}
+		]
+	},
 	plugins: [ require("daisyui") ]
 };
 export default config;
