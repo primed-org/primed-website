@@ -54,12 +54,12 @@ export function Navbar() {
                 {/* Nav Links */}
                 <ul className={`${isOpen ? "flex flex-col gap-10 text-[24px] items-center fixed inset-0 bg-white z-10 rounded-br-full ease-in-out" : "hidden"} md:flex md:space-x-6 md:justify-end md:w-auto text-[16px] text-[#2B2A2A]`}>
 
-                    <div className="absolute top-0 left-10 w-full flex justify-between items-center px-6 py-4 md:hidden">
+                    <div className="absolute top-0 w-full flex justify-between items-center px-6 py-4 md:hidden">
                         <div className="flex items-center">
                             <img className="w-10 h-10 mr-2" alt="Group" src="/images/icon.svg" />
                             <span className="text-primary font-bold text-lg">Primed E-Health</span>
                         </div>
-                        <button onClick={toggleMenu} className="text-[#2B2A2A] font-bold focus:outline-none mr-20">
+                        <button onClick={toggleMenu} className="text-[#2B2A2A] font-bold focus:outline-">
                             <svg xmlns="http://www.w3.org/2000/svg" className="h-9 w-9" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M6 18L18 6M6 6l12 12" />
                             </svg>
