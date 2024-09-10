@@ -1,6 +1,4 @@
 import Button from "@/components/common/Button";
-import React from "react";
-
 const HeroSection = () => {
   return (
     <section>
