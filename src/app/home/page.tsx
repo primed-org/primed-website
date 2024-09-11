@@ -131,7 +131,7 @@ const HomePage = () => {
             <img
               src="/images/first_bank.png"
               alt=""
-              className="w-[120px] h-10"
+              className=" h-10"
             />
             <img src="/images/bao.png" alt="" className="w-[120px] h-10" />
             <img src="/images/nccgovng.png" alt="" className="w-[120px] h-10" />
