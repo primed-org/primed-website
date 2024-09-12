@@ -1,15 +1,12 @@
-// import { Footer } from '@/components/common/Footer';
-// import { Header } from '@/components/common/Header';
 import HeroSection from '@/components/specific/solutions/HeroSection';
 import Image from 'next/image';
 
 const Solutions = () => {
   return (
-    <div>
-      {/* <Header /> */}
+    <div className="w-full">
       <HeroSection />
       <section className="flex flex-col items-center bg-neutral">
-        <div className="flex flex-col lg:flex-row items-center justify-center space-y-6 lg:space-y-0 lg:space-x-6">
+        <div className="flex flex-col lg:flex-row items-center justify-center mt-[30px] space-y-6 lg:space-y-0 lg:space-x-6">
           <div className="flex justify-center bg-[#F9F9D1] w-[280px] h-[280px] lg:w-[380px] lg:h-[350px] rounded-tl-[20px] rounded-tr-[80px] rounded-br-[20px] rounded-bl-[80px]">
             <div className="w-full mt-[10px] ml-[20px] lg:ml-[30px] lg:mt-[20px] overflow-hidden">
               <Image
@@ -48,7 +45,7 @@ const Solutions = () => {
           </div>
         </div>
 
-        <div className="flex flex-col lg:flex-row items-center justify-center space-y-6 lg:space-y-0 lg:space-x-6">
+        <div className="flex flex-col lg:flex-row items-center justify-center mt-[30px] space-y-6 lg:space-y-0 lg:space-x-6">
           <div className="w-full lg:w-1/2 flex justify-center">
             <Image
               src="/images/doctor-facetime.svg"
@@ -87,7 +84,7 @@ const Solutions = () => {
           </div>
         </div>
 
-        <div className="flex flex-col lg:flex-row items-center justify-center space-y-6 lg:space-y-0 lg:space-x-6">
+        <div className="flex flex-col lg:flex-row items-center justify-center mt-[30px] space-y-6 lg:space-y-0 lg:space-x-6">
           <div className="flex justify-center bg-[#F9F9D1] w-[280px] h-[280px] lg:w-[380px] lg:h-[350px] rounded-tl-[20px] rounded-tr-[80px] rounded-br-[20px] rounded-bl-[80px]">
             <div className="w-full mt-[10px] ml-[20px] lg:ml-[30px] lg:mt-[20px] overflow-hidden">
               <Image
@@ -126,7 +123,7 @@ const Solutions = () => {
           </div>
         </div>
 
-        <div className="flex flex-col lg:flex-row items-center justify-center space-y-6 lg:space-y-0 lg:space-x-6">
+        <div className="flex flex-col lg:flex-row items-center justify-center mt-[30px] space-y-6 lg:space-y-0 lg:space-x-6">
           <div className="w-full lg:w-1/2 flex justify-center">
             <Image
               src="/images/man-meeting.svg"
@@ -165,7 +162,7 @@ const Solutions = () => {
           </div>
         </div>
 
-        <div className="flex flex-col lg:flex-row items-center justify-center space-y-6 lg:space-y-0 lg:space-x-6">
+        <div className="flex flex-col lg:flex-row items-center justify-center my-[30px] space-y-6 lg:space-y-0 lg:space-x-6">
           <div className="flex justify-center bg-[#F9F9D1] w-[280px] h-[280px] lg:w-[380px] lg:h-[350px] rounded-tl-[20px] rounded-tr-[80px] rounded-br-[20px] rounded-bl-[80px]">
             <div className="w-full mt-[10px] ml-[20px] lg:ml-[30px] lg:mt-[20px] overflow-hidden">
               <Image
@@ -204,7 +201,6 @@ const Solutions = () => {
           </div>
         </div>
       </section>
-      {/* <Footer /> */}
     </div>
   );
 };

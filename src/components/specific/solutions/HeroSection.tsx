@@ -1,6 +1,6 @@
 import Image from 'next/image';
+import Button from '@/components/common/Button';
 
-// import Button from "@/components/common/Button";
 const HeroSection = () => {
   return (
     <section>
@@ -22,7 +22,7 @@ const HeroSection = () => {
             day-to-day dealings associated with the <br /> health sector
           </p>
           <div className="mt-[20px]">
-            {/* <Button label="More About Us" variant="primary" /> */}
+            <Button label="More About Us" variant="primary" />
           </div>
         </div>
       </div>
