@@ -1,4 +1,3 @@
-// import Button from "@/components/common/Button";
 const HeroSection = () => {
   return (
     <section>
