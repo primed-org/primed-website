@@ -1,6 +1,9 @@
+<<<<<<< HEAD
 import Image from 'next/image';
 import Button from '@/components/common/Button';
 
+=======
+>>>>>>> 795df3ea84a46ac472c4e79edec569bf32d66d5e
 const HeroSection = () => {
   return (
     <section>
