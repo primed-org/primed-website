@@ -16,7 +16,7 @@ export default function RootLayout ({ children }: Readonly<{ children: React.Rea
 		<html lang="en">
 		<body className={ inter.className }>
 		<Header/>
-		<main className="flex min-h-screen flex-col justify-between bg-white">
+		<main className="flex min-h-screen flex-col items-center justify-between">
 			{ children }
 		</main>
 		<Footer/>
