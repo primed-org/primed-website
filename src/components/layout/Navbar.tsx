@@ -31,7 +31,7 @@ export function Navbar() {
 
 
     return (
-        <nav className="w-full bg-white shadow-md fixed top-0">
+        <nav className="w-full bg-white shadow-md fixed top-0 z-20">
             <div className="container mx-auto flex justify-between items-center py-4 px-6">
                 <div className="flex items-center">
                     <img className="w-10 h-10 mr-2" alt="Group" src="/images/icon.svg" />
