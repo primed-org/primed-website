@@ -10,7 +10,7 @@ const Solutions = () => {
           <div className="flex justify-center bg-[#F9F9D1] w-[280px] h-[280px] lg:w-[380px] lg:h-[350px] rounded-tl-[20px] rounded-tr-[80px] rounded-br-[20px] rounded-bl-[80px]">
             <div className="w-full mt-[10px] ml-[20px] lg:ml-[30px] lg:mt-[20px] overflow-hidden">
               <Image
-                src="/images/grommet-icons_organization.svg"
+                src="/images/grommet-icons.svg"
                 alt="grommet-icon"
                 className="w-[15px] h-[15px] lg:w-[30px] lg:h-[30px]"
                 width={30}
