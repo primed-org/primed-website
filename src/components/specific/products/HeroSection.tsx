@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 import Image from 'next/image';
 import Button from '@/components/common/Button';
 
