@@ -1,6 +1,7 @@
 'use client';
 
 import HeroSection from "@/components/specific/home/HeroSection"
+import Image from "next/image";
 
 const HomePage = () => {
   return (
@@ -9,7 +10,7 @@ const HomePage = () => {
 
       <div className="grid md:grid-cols-2 text-[16px] mx-10 mt-24 mb-10 gap-10">
         <div>
-          <img src="/images/image7.svg" alt="" className="w-full" />
+          <Image src="/images/image7.svg" alt="" width={541} height={565} />
         </div>
         <div>
           <h1 className="text-secondary text-[20px] font-semibold leading-10 mb-5 lg:mb-10 lg:leading-[48px] lg:text-3xl">
@@ -45,10 +46,12 @@ const HomePage = () => {
           <div className="relative overflow-hidden p-5">
             {/* Background Gradient */}
             <div className="absolute bottom-5 -left-32 w-full rounded-full  inset-0 bg-gradient-to-t from-[#ffedee] to-transparent z-0"></div>
-            <img
+            <Image
               src="/images/iPhone.svg"
               alt="iPhone"
-              className="w-[350px] h-[230px] mt-5 mx-auto relative z-10"
+              width={350}
+              height={230}
+              className="mt-5 mx-auto relative z-10"
             />
             <h1 className="text-[16px] font-bold text-secondary mt-10 mb-5 relative z-10">
               Mobile App for Patients
@@ -61,10 +64,12 @@ const HomePage = () => {
 
           <div className="relative overflow-hidden p-5">
             <div className="absolute bottom-10 w-full rounded-full  inset-0 bg-gradient-to-t from-[#faf2f2] to-transparent z-0"></div>
-            <img
+            <Image
               src="/images/card.svg"
               alt="Card"
-              className="w-[250px] h-[210px] mt-10 mx-auto relative z-10"
+              width={250}
+              height={210}
+              className="mt-10 mx-auto relative z-10"
             />
             <h1 className="text-[16px] font-bold text-secondary mt-10 mb-5 relative z-10">
               Patient Smart Card
@@ -77,10 +82,12 @@ const HomePage = () => {
 
           <div className="relative overflow-hidden p-5">
             <div className="absolute left-20 bottom-10 w-full rounded-full inset-0 bg-gradient-to-t from-[#ffedee] to-transparent z-0"></div>
-            <img
+            <Image
               src="/images/hp.svg"
               alt="hp"
-              className="w-[300px] h-[210px] mt-10 mx-auto relative z-10"
+              width={300}
+              height={210}
+              className="mt-10 mx-auto relative z-10"
             />
             <h1 className="text-[16px] font-bold text-secondary mt-10 mb-5 relative z-10">
               Unified Dashboards for Hospitals
@@ -95,7 +102,7 @@ const HomePage = () => {
 
       <div className="my-5">
         <div className="bg-[#fcfce8] h-full relative ">
-          <div className="grid md:grid-cols-3 text-[#555353] mx-10 text-center ">
+          <div className="grid md:grid-cols-3 text-[#555353] mx-10 mb-10  text-center">
             <div className="my-10">
               <h1 className="text-secondary text-[20px] font-bold leading-10 mb-5 lg:mb-4 lg:leading-[48px] lg:text-3xl">
                 30+
@@ -112,7 +119,7 @@ const HomePage = () => {
                 Used by Over 1000000+ Patients
               </p>
             </div>
-            <div className="my-20">
+            <div className="my-20 md:my-10">
               <h1 className="text-secondary text-[20px] font-bold leading-10 mb-5 lg:mb-4 lg:leading-[48px] lg:text-3xl">
                 10000+
               </h1>
@@ -123,11 +130,11 @@ const HomePage = () => {
           </div>
 
           <div className="flex flex-wrap justify-between mx-16 gap-10">
-            <img src="/images/bondinnov.svg" alt="" className="w-[120px] h-10" />
-            <img src="/images/first_bank.svg" alt="" className=" h-10" />
-            <img src="/images/bao.svg" alt="" className="w-[120px] h-10" />
-            <img src="/images/nccgovng.svg" alt="" className="w-[120px] h-10" />
-            <img src="images/wema_bank.svg" alt="" className="w-[120px] h-10" />
+            <Image src="/images/bondinnov.svg" alt="" width={120} height={10} className="w-[120px] h-10" />
+            <Image src="/images/first_bank.svg" alt="" width={150} height={10} className="h-10"  />      
+            <Image src="/images/bao.svg" alt="" width={120} height={10} className="w-[120px] h-10" />
+            <Image src="/images/nccgovng.svg" alt="" width={120} height={10} className="w-[120px] h-10" />
+            <Image src="images/wema_bank.svg" alt="" width={120} height={10} className="w-[120px] h-10" />
           </div>
 
           <div className="relative z-10 mb-20">
@@ -151,10 +158,10 @@ const HomePage = () => {
                       been a game changer.
                     </p>
                     <div className="flex justify-between gap-4">
-                      <img
+                      <Image
                         src="/images/client.svg"
                         alt=""
-                        className="w-12 h-12"
+                        width={12} height={12}
                       />
                       <div>
                         <h3 className="text-[#2E2D2D] text-[14px] font-semibold ">
@@ -180,10 +187,10 @@ const HomePage = () => {
                       been a game changer.
                     </p>
                     <div className="flex justify-between gap-4">
-                      <img
+                      <Image
                         src="/images/client.svg"
                         alt=""
-                        className="w-12 h-12"
+                        width={12} height={12}
                       />
                       <div>
                         <h3 className="text-[#2E2D2D] text-[14px] font-semibold ">
@@ -209,10 +216,10 @@ const HomePage = () => {
                       been a game changer.
                     </p>
                     <div className="flex justify-between gap-4">
-                      <img
+                      <Image
                         src="/images/client.svg"
                         alt=""
-                        className="w-12 h-12"
+                        width={12} height={12}
                       />
                       <div>
                         <h3 className="text-[#2E2D2D] text-[14px] font-semibold ">
@@ -231,13 +238,13 @@ const HomePage = () => {
         </div>
       </div>
 
-      <div className="relative h-[880px] md:h-[550px] bg-primary ">
+      <div className="relative h-[930px] md:h-[550px] bg-primary ">
         <div className="bg-primary absolute -top-[370px] rounded-t-[60px] z-0 w-full overflow-hidden">
           <div className="mx-8 flex flex-col-reverse lg:mx-28 md:grid md:grid-cols-2 md:items-center gap-8 md:gap-10 lg:gap-16 mt-96 pb-[110px] ">
-            <img
+            <Image
               src="/images/mobile_app.svg"
               alt="Mobile app preview"
-              className="w-[300px] h-[300px] md:w-[400px] md:h-[400px]"
+              width={400} height={400}
             />
             <div className="w-full mb-10 md:mb-0">
               <h2 className="text-white text-[20px] lg:text-3xl font-semibold mb-4">

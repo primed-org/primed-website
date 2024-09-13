@@ -1,5 +1,7 @@
 'use client';
 
+import Image from "next/image";
+
 import { useEffect, useState, useRef } from 'react';
 
 const Hero = () => {
@@ -105,7 +107,9 @@ const Hero = () => {
                 </button>
               </div>
               <div className="p-5 lg:pl-20">
-                <img
+                <Image
+                alt=""
+                width={550} height={400}
                   src="/images/home_image1.svg"
                   className="w-[450px] h-[400px]"
                 />
@@ -130,7 +134,9 @@ const Hero = () => {
                 </button>
               </div>
               <div className="p-5 lg:pl-20">
-                <img
+                <Image
+                alt=""
+                width={550} height={400}
                   src="/images/home_image2.svg"
                   className="w-[450px] h-[400px]"
                 />
@@ -154,8 +160,10 @@ const Hero = () => {
                 </button>
               </div>
               <div className="p-5 lg:pl-20">
-                <img
+                <Image
+                alt=""
                   src="/images/home_image3.svg"
+                  width={550} height={400}
                   className="w-[450px] h-[400px] "
                 />
               </div>
