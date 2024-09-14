@@ -86,6 +86,6 @@ export function Navbar() {
                     </li>
                 </ul>
             </div>
-        </nav>
+        </nav>  
     );
 }
