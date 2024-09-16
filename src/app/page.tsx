@@ -5,7 +5,7 @@ export default function Landing() {
   return (
     <div>
       <Home />
-      <Button label="More About Us" variant="primary"/>
+      <Button label="More About" variant="primary" />
     </div>
   );
 }
