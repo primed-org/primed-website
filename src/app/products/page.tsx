@@ -58,16 +58,16 @@ const Products = () => {
               <p className="text-secondary text-[12px] lg:text-[12px] font-normal mt-[5px] lg:mt-[15px] truncate break-words">
                 Mobile Application will cater to communication needs <br />
                 between providers and patients, processes ranging from <br />
-                doctor's research and availability check, registration, queue{' '}
+                doctor&apos;s research and availability check, registration, queue{' '}
                 <br />
                 number settings and notifications, easy-to-access medical <br />
                 records, and chats between doctors and patients.
               </p>
               <p className="text-secondary text-[12px] lg:text-[12px] font-normal mt-[15px] lg:mt-[25px] truncate break-words ">
-                Helping in makking critical information more readily available{' '}
+                Helping in making critical information more readily available{' '}
                 <br />
                 for review on an individual basis especially so for other <br />
-                healthcare providers outside a patient's original primary care{' '}
+                healthcare providers outside a patient&apos;s original primary care{' '}
                 <br />
                 facility.
               </p>

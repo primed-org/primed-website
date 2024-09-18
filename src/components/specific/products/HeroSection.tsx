@@ -23,7 +23,7 @@ const HeroSection = () => {
           </p>
           <div className="mt-[20px]">
             <Button
-              style={{ padding: '0px 16px' }}
+              // style={{ padding: '0px 16px' }}
               label="More About Us"
               variant="primary"
             />
