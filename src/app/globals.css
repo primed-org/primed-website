@@ -17,13 +17,13 @@
 }
 
 body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
   color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
+  background: linear-gradient(to bottom,
       transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+      rgb(var(--background-end-rgb))) rgb(var(--background-start-rgb));
 }
 
 @layer utilities {
@@ -32,7 +32,8 @@ body {
   }
 }
 
-.highlight, .active {
+.highlight,
+.active {
   position: relative;
 }
 
@@ -40,7 +41,7 @@ body {
   content: '';
   width: 50px;
   height: 3px;
-  background: #BE1111;
+  background: #be1111;
   position: absolute;
   top: 25px;
   justify-content: center;
