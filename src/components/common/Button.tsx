@@ -13,12 +13,11 @@ interface ButtonProps {
     | 'success'
     | 'warning'
     | 'error';
-    className?: string;
 }
 
-const Button: React.FC<ButtonProps> = ({ label, variant = 'primary', className }) => {
+const Button: React.FC<ButtonProps> = ({ label, variant = 'primary' }) => {
   // Set up variant-based class names for colors
-  const baseClass = 'px-4 py-2 rounded-md text-base font-normal';
+  const baseClass = 'w-[300px] px-[16px] py-3 rounded-md text-base font-normal';
 
   const variantClass = {
     primary: 'bg-primary text-neutral',
@@ -35,7 +34,7 @@ const Button: React.FC<ButtonProps> = ({ label, variant = 'primary', className }
 
   return (
     <button
-      className={`${baseClass} ${variantClass[variant]} ${className}`}
+      className={`${baseClass} ${variantClass[variant]}`}
     >
       {label}
     </button>
