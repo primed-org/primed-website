@@ -154,80 +154,125 @@ const About = () => {
                 height={250}
                 className="mb-5 md:mb-0 rounded"
               />
-              <p className="text-[15px] leading-6 ">
-                As an Economist with a solid grasp of business strategies, she
-                possesses extensive expertise acquired from more than 5 years of
-                hands-on experience in both the financial and health sectors.
-                Throughout her professional journey, she has excelled as a
-                business consultant, specifically focusing on healthcare
-                solutions. What drives her forward is her unwavering motivation
-                to foster innovation in Nigeria and Africa, particularly within
-                the healthcare realm. It is with this fervor that she has joined
-                this team, dedicating herself to the creation of groundbreaking
-                healthcare solutions tailored to the unique needs of the
-                Nigerian and African market
-              </p>
+              <div>
+                <div className="pb-4">
+                  <h1 className="font-semibold text-[20px] text-secondary  ">
+                    Esther Anammah
+                  </h1>
+                  <p>COO/Co-Founder</p>
+                </div>
+                <p className="text-[15px] leading-6 ">
+                  As an Economist with a solid grasp of business strategies, she
+                  possesses extensive expertise acquired from more than 5 years
+                  of hands-on experience in both the financial and health
+                  sectors. Throughout her professional journey, she has excelled
+                  as a business consultant, specifically focusing on healthcare
+                  solutions. What drives her forward is her unwavering
+                  motivation to foster innovation in Nigeria and Africa,
+                  particularly within the healthcare realm. It is with this
+                  fervor that she has joined this team, dedicating herself to
+                  the creation of groundbreaking healthcare solutions tailored
+                  to the unique needs of the Nigerian and African market
+                </p>
+              </div>
             </div>
             <div className=" justify-between items-end space-x-0 mb-12 md:flex md:space-x-10">
               <Image
-                src="/images/esther.png"
+                src="/images/are.png"
                 alt=""
                 width={250}
                 height={250}
                 className="mb-5 md:mb-0 rounded"
               />
-              <p className="text-[15px] leading-6 ">
-                As an Economist with a solid grasp of business strategies, she
-                possesses extensive expertise acquired from more than 5 years of
-                hands-on experience in both the financial and health sectors.
-                Throughout her professional journey, she has excelled as a
-                business consultant, specifically focusing on healthcare
-                solutions. What drives her forward is her unwavering motivation
-                to foster innovation in Nigeria and Africa, particularly within
-                the healthcare realm. It is with this fervor that she has joined
-                this team, dedicating herself to the creation of groundbreaking
-                healthcare solutions tailored to the unique needs of the
-                Nigerian and African market
-              </p>
+              <div>
+                <div className="pb-4">
+                  <h1 className="font-semibold text-[20px] text-secondary  ">
+                    Dr. Abdulhafiz Are
+                  </h1>
+                  <p>CEO/Co-Founder</p>
+                </div>
+                <p className="text-[15px] leading-6 ">
+                  He is an accomplished Medical Doctor with a Doctorate degree
+                  in Health Informatics, which has equipped him with a deep
+                  understanding of the intersection between medicine and
+                  technology. Over the course of more than 10 years, he has
+                  dedicated his career to deploying e-health solutions,
+                  effectively utilising digital platforms to enhance healthcare
+                  delivery and patient outcomes. Beyond his medical expertise,
+                  he is also a passionate social impact entrepreneur. His
+                  primary focus is on developing innovative ideas that not only
+                  bring about positive changes in the society but also generates
+                  sustainable profits.
+                </p>
+              </div>
             </div>
             <div className="justify-between items-end space-x-0 mb-12 md:flex md:space-x-10">
               <Image
-                src="images/esther.png"
+                src="images/usman.png"
                 alt="Esther"
                 width={250}
                 height={250}
                 className="mb-5 md:mb-0 rounded"
               />
-              <p className="text-[15px] lg:text-[16px] leading-6 ">
-                As an Economist with a solid grasp of business strategies, she
-                possesses extensive expertise acquired from more than 5 years of
-                hands-on experience in both the financial and health sectors.
-                Throughout her professional journey, she has excelled as a
-                business consultant, specifically focusing on healthcare
-                solutions. What drives her forward is her unwavering motivation
-                to foster innovation in Nigeria and Africa, particularly within
-                the healthcare realm. It is with this fervor that she has joined
-                this team, dedicating herself to the creation of groundbreaking
-                healthcare solutions tailored to the unique needs of the
-                Nigerian and African market
-              </p>
+              <div>
+                <div className="pb-4">
+                  <h1 className="font-semibold text-[20px] text-secondary  ">
+                    Usman Ogunsola
+                  </h1>
+                  <p>CTO, Software Engineer</p>
+                </div>
+                <p className="text-[15px] lg:text-[16px] leading-6 ">
+                  Ogunsola is a highly skilled and dedicated professional with a
+                  passion for technology. As a Software Engineer, he has
+                  demonstrated expertise in building robust and scalable web
+                  applications. A proven leader, he has successfully led
+                  development teams to deliver impactful products. His
+                  collaborative approach and effective communication skills
+                  makes him an exemplary leader of any team. Currently at
+                  Primed, he continues to drive innovation and technical
+                  excellence.
+                </p>
+              </div>
             </div>
           </div>
         </div>
       </div>
 
-      <div className='bg-white py-20'>
-        <div className='flex flex-col-reverse justify-between items-center md:space-x-8 md:flex-row px-5 md:px-24'>
-          <div className='grid grid-cols-2 gap-10 justify-center items-center'>
-            <Image src='./images/bondinnov.svg' alt='' width={228} height={42} />
-            <Image src='./images/lagos_state.svg' alt='' width={91} height={91} />
-            <Image src='./images/wema_bank.svg' alt='' width={264} height={36} />
-            <Image src='./images/nccgovng.svg' alt='' width={124} height={70} />
-            <Image src='./images/bao.svg' alt='' width={149} height={37} />
-            <Image src='./images/first_bank.svg' alt='' width={280} height={51} className='-ml-3 md:-ml-2' />
+      <div className="bg-white py-20">
+        <div className="flex flex-col-reverse justify-between items-center md:space-x-8 md:flex-row px-5 md:px-24">
+          <div className="grid grid-cols-2 gap-10 justify-center items-center">
+            <Image
+              src="./images/bondinnov.svg"
+              alt=""
+              width={228}
+              height={42}
+            />
+            <Image
+              src="./images/lagos_state.svg"
+              alt=""
+              width={91}
+              height={91}
+            />
+            <Image
+              src="./images/wema_bank.svg"
+              alt=""
+              width={264}
+              height={36}
+            />
+            <Image src="./images/nccgovng.svg" alt="" width={124} height={70} />
+            <Image src="./images/bao.svg" alt="" width={149} height={37} />
+            <Image
+              src="./images/first_bank.svg"
+              alt=""
+              width={280}
+              height={51}
+              className="-ml-3 md:-ml-2"
+            />
           </div>
-          <div className='w-full text-left mb-10 lg:pr-20 md:text-right md:mb-0'>
-            <h1 className='text-[24px] text-secondary font-semibold '>Our Clients</h1>
+          <div className="w-full text-left mb-10 lg:pr-20 md:text-right md:mb-0">
+            <h1 className="text-[24px] text-secondary font-semibold ">
+              Our Clients
+            </h1>
           </div>
         </div>
       </div>
