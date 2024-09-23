@@ -148,11 +148,11 @@ const About = () => {
           <div className="col-span-3">
             <div className="justify-between items-end space-x-0 mb-12 md:flex md:space-x-10">
               <Image
-                src="/images/esther.svg"
+                src="/images/esther.png"
                 alt=""
                 width={250}
                 height={250}
-                className="mb-5 md:mb-0"
+                className="mb-5 md:mb-0 rounded"
               />
               <p className="text-[15px] leading-6 ">
                 As an Economist with a solid grasp of business strategies, she
@@ -170,11 +170,11 @@ const About = () => {
             </div>
             <div className=" justify-between items-end space-x-0 mb-12 md:flex md:space-x-10">
               <Image
-                src="/images/esther.svg"
+                src="/images/esther.png"
                 alt=""
                 width={250}
                 height={250}
-                className="mb-5 md:mb-0"
+                className="mb-5 md:mb-0 rounded"
               />
               <p className="text-[15px] leading-6 ">
                 As an Economist with a solid grasp of business strategies, she
@@ -192,11 +192,11 @@ const About = () => {
             </div>
             <div className="justify-between items-end space-x-0 mb-12 md:flex md:space-x-10">
               <Image
-                src="/images/esther.svg"
-                alt=""
+                src="images/esther.png"
+                alt="Esther"
                 width={250}
                 height={250}
-                className="mb-5 md:mb-0"
+                className="mb-5 md:mb-0 rounded"
               />
               <p className="text-[15px] lg:text-[16px] leading-6 ">
                 As an Economist with a solid grasp of business strategies, she
