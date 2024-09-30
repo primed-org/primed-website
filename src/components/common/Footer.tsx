@@ -1,7 +1,4 @@
-import { Nunito } from "next/font/google";
-
-const nunito = Nunito({ subsets: [ "latin" ], display: "swap" });
-
+import Img from "next/image";
 export function Footer () {
 	return ( 
 	<footer className="w-full h-full bg-[#272727] text-white py-4 bottom-0">
@@ -38,7 +35,7 @@ export function Footer () {
 				<div className="mx-2 hover:text-primary cursor-pointer">LinkedIn</div>
 			</div>
 			<div className="flex justify-center mt-4 cursor-pointer">
-				<img className="w-8 h-8" alt="Group" src="/images/icon.svg"/>
+				<Img className="w-8 h-8" alt="Group" src="/images/icon.svg"/>
 				<div className="ml-2">Primed E-Health</div>
 			</div>
 		</div>

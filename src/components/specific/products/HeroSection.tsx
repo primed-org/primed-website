@@ -14,15 +14,19 @@ const HeroSection = () => {
         />
         <div className="absolute inset-0 flex flex-col space-y-4 p-4 top-60 left-10 lg:top-60 lg:left-20">
           <p className="text-[28px] font-bold leading-8">
-            We exist for different types of <br />{' '}
-            <span className="text-primary">Users</span>
+            Our Product makes Us <br /> stand out
           </p>
           <p className="text-[16px] font-normal text-primedText mt-[20px]">
-            Primed E-Health is at the heart of solving the <br /> hassles of
-            day-to-day dealings associated with the <br /> health sector
+            Primed E-Health is at the heart of solving the hassles <br /> of day-to-day
+            dealings associated with the health <br /> sector. Our Legacy EMR, Patient
+            Smartcard
           </p>
           <div className="mt-[20px]">
-            <Button label="More About Us" variant="primary" />
+            <Button
+              // style={{ padding: '0px 16px' }}
+              label="More About Us"
+              variant="primary"
+            />
           </div>
         </div>
       </div>
