@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import Img from "next/image";
 import { usePathname } from "next/navigation";
 import { useState, useEffect } from "react";
 
@@ -34,7 +35,7 @@ export function Navbar() {
         <nav className="w-full bg-white shadow-md fixed top-0 z-20">
             <div className="container mx-auto flex justify-between items-center py-4 px-6">
                 <div className="flex items-center">
-                    <img className="w-10 h-10 mr-2" alt="Group" src="/images/icon.svg" />
+                    <Img className="w-10 h-10 mr-2" alt="Group" src="/images/icon.svg" />
                     <span className="text-primary font-bold text-lg">Primed E-Health</span>
                 </div>
 
@@ -56,7 +57,7 @@ export function Navbar() {
 
                     <div className="absolute top-0 w-full flex justify-between items-center px-6 py-4 md:hidden">
                         <div className="flex items-center">
-                            <img className="w-10 h-10 mr-2" alt="Group" src="/images/icon.svg" />
+                            <Img className="w-10 h-10 mr-2" alt="Group" src="/images/icon.svg" />
                             <span className="text-primary font-bold text-lg">Primed E-Health</span>
                         </div>
                         <button onClick={toggleMenu} className="text-[#2B2A2A] font-bold focus:outline-">
