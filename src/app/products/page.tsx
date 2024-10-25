@@ -7,12 +7,12 @@ const Products = () => {
       <HeroSection />
       <section className="flex flex-col items-center bg-neutral">
         <div className="flex flex-col lg:flex-row items-center justify-around mt-[30px] space-y-6 lg:space-y-0 lg:space-x-6">
-          <div className="flex justify-center bg-[#F9F9D1] w-[280px] h-[280px] lg:w-[400px] lg:h-[350px] rounded-tl-[20px] rounded-tr-[80px] rounded-br-[20px] rounded-bl-[80px]">
-            <div className="w-full mt-[10px] ml-[15px] lg:ml-[20px] lg:mt-[20px] overflow-hidden">
+          <div className="flex justify-center bg-[#F9F9D1] w-[370px] h-[300px] px-2 lg:w-[400px] lg:h-[350px] rounded-tl-[20px] rounded-tr-[80px] rounded-br-[20px] rounded-bl-[80px]">
+            <div className="w-full mt-[30px] ml-[15px] lg:ml-[20px] lg:mt-[20px] overflow-hidden">
               <p className="text-secondary text-xs lg:text-[18px] font-bold mt-[10px] lg:mt-[30px]">
                 EMR/HMS [Electronic Medical <br /> Record System]
               </p>
-              <p className="text-secondary text-[12px] lg:text-[12px] font-normal mt-[5px] lg:mt-[15px] truncate break-words">
+              <p className="text-secondary text-[12px] lg:text-[12px] font-normal mt-[5px] lg:mt-[15px] whitespace-nowrap">
                 The Electronic Medical Record System provides immediate <br />{' '}
                 access to healthcare. ‌Improving the hospitals’ efficiency{' '}
                 <br /> and saving costs. This system can facilitate workflow and{' '}
@@ -32,7 +32,7 @@ const Products = () => {
             <Image
               src="/images/records-tab.svg"
               alt="records-tab"
-              className="w-[280px] h-[280px] lg:w-[600px] lg:h-[600px]"
+              className="w-[300px] h-[300px] lg:w-[600px] lg:h-[600px]"
               width={600}
               height={600}
             />
@@ -44,18 +44,18 @@ const Products = () => {
             <Image
               src="/images/smartclinic-app.svg"
               alt="smartcard-app"
-              className="w-[280px] h-[280px] lg:w-[600px] lg:h-[600px]"
+              className="w-[300px] h-[300px] lg:w-[600px] lg:h-[600px]"
               width={600}
               height={600}
             />
           </div>
 
-          <div className="flex justify-center bg-[#F9F9D1] w-[280px] h-[280px] lg:w-[400px] lg:h-[350px] rounded-tl-[20px] rounded-tr-[80px] rounded-br-[20px] rounded-bl-[80px]">
-            <div className="w-full mt-[10px] ml-[20px] lg:ml-[30px] lg:mt-[20px] overflow-hidden">
+          <div className="flex justify-center bg-[#F9F9D1] w-[370px] h-[300px] px-2 lg:w-[400px] lg:h-[350px] rounded-tl-[20px] rounded-tr-[80px] rounded-br-[20px] rounded-bl-[80px]">
+            <div className="w-full mt-[30px] ml-[15px] lg:ml-[30px] lg:mt-[20px] overflow-hidden">
               <p className="text-secondary text-xs lg:text-[18px] font-bold mt-[10px] lg:mt-[30px]">
                 The SmartClinic Mobile App
               </p>
-              <p className="text-secondary text-[12px] lg:text-[12px] font-normal mt-[5px] lg:mt-[15px] truncate break-words">
+              <p className="text-secondary text-[12px] lg:text-[12px] font-normal mt-[5px] lg:mt-[15px] whitespace-nowrap">
                 Mobile Application will cater to communication needs <br />
                 between providers and patients, processes ranging from <br />
                 doctor&apos;s research and availability check, registration, queue{' '}
@@ -76,12 +76,12 @@ const Products = () => {
         </div>
 
         <div className="flex flex-col lg:flex-row items-center justify-around mt-[30px] space-y-6 lg:space-y-0 lg:space-x-6">
-          <div className="flex justify-center bg-[#F9F9D1] w-[280px] h-[340px] lg:w-[400px] lg:h-[400px] rounded-tl-[20px] rounded-tr-[80px] rounded-br-[20px] rounded-bl-[80px]">
-            <div className="w-full mt-[10px] ml-[10px] lg:ml-[30px] lg:mt-[20px] overflow-hidden">
+          <div className="flex justify-center bg-[#F9F9D1] w-[350px] h-[340px] lg:w-[400px] lg:h-[400px] rounded-tl-[20px] rounded-tr-[80px] rounded-br-[20px] rounded-bl-[80px]">
+            <div className="w-full mt-[10px] ml-[20px] lg:ml-[30px] lg:mt-[20px] overflow-hidden">
               <p className="text-secondary text-xs lg:text-[18px] font-bold mt-[10px] lg:mt-[30px]">
                 Primed SmartCard App
               </p>
-              <p className="text-secondary text-[12px] lg:text-[12px] font-normal mt-[5px] lg:mt-[15px] truncate break-words">
+              <p className="text-secondary text-[12px] lg:text-[12px] font-normal mt-[5px] lg:mt-[15px] whitespace-nowrap">
                 Our patient smart identity cards ultimately make the <br />{' '}
                 individual patient record and all transactions within <br />{' '}
                 the, patient log as portable, accessible and secure as <br /> an
@@ -104,7 +104,7 @@ const Products = () => {
             <Image
               src="/images/smartcard.svg"
               alt="smartcard-app"
-              className="w-[280px] h-[280px] lg:w-[600px] lg:h-[600px]"
+              className="w-[300px] h-[300px] lg:w-[600px] lg:h-[600px]"
               width={600}
               height={600}
             />
@@ -116,18 +116,18 @@ const Products = () => {
             <Image
               src="/images/self-service.svg"
               alt="self-service"
-              className="w-[280px] h-[280px] lg:w-[400px] lg:h-[400px]"
+              className="w-[300px] h-[300px] lg:w-[400px] lg:h-[400px]"
               width={400}
               height={400}
             />
           </div>
 
-          <div className="flex justify-center bg-[#F9F9D1] w-[280px] h-[340px] lg:w-[400px] lg:h-[400px] rounded-tl-[20px] rounded-tr-[80px] rounded-br-[20px] rounded-bl-[80px]">
+          <div className="flex justify-center bg-[#F9F9D1] w-[350px] h-[340px] lg:w-[400px] lg:h-[400px] rounded-tl-[20px] rounded-tr-[80px] rounded-br-[20px] rounded-bl-[80px]">
             <div className="w-full mt-[10px] ml-[20px] lg:ml-[30px] lg:mt-[20px] overflow-hidden">
               <p className="text-secondary text-xs lg:text-[18px] font-bold mt-[10px] lg:mt-[30px]">
                 Smart Self-service Kiosk
               </p>
-              <p className="text-secondary text-[12px] lg:text-[12px] font-normal mt-[5px] lg:mt-[15px] truncate break-words">
+              <p className="text-secondary text-[12px] lg:text-[12px] font-normal mt-[5px] lg:mt-[15px] whitespace-nowrap">
                 Our patient smart identity cards ultimately make the <br />{' '}
                 individual patient record and all transactions within <br />{' '}
                 the, patient log as portable, accessible and secure as <br /> an
@@ -147,13 +147,13 @@ const Products = () => {
           </div>
         </div>
 
-        <div className="flex flex-col lg:flex-row items-center justify-around mt-[30px] mb-[100px] space-y-6 lg:space-y-0 lg:space-x-6">
-          <div className="flex justify-center bg-[#F9F9D1] w-[280px] h-[340px] lg:w-[400px] lg:h-[400px] rounded-tl-[20px] rounded-tr-[80px] rounded-br-[20px] rounded-bl-[80px]">
+        <div className="flex flex-col lg:flex-row items-center justify-around mt-[50px] mb-[100px] space-y-6 lg:space-y-0 lg:space-x-6">
+          <div className="flex justify-center bg-[#F9F9D1] w-[350px] h-[340px] lg:w-[400px] lg:h-[400px] rounded-tl-[20px] rounded-tr-[80px] rounded-br-[20px] rounded-bl-[80px]">
             <div className="w-full mt-[10px] ml-[20px] lg:ml-[30px] lg:mt-[20px] overflow-hidden">
               <p className="text-secondary text-xs lg:text-[18px] font-bold mt-[10px] lg:mt-[30px]">
                 Efficient Solar Panels
               </p>
-              <p className="text-secondary text-[12px] lg:text-[12px] font-normal mt-[5px] lg:mt-[15px] truncate break-words">
+              <p className="text-secondary text-[12px] lg:text-[12px] font-normal mt-[5px] lg:mt-[15px] whitespace-nowrap">
                 Our patient smart identity cards ultimately make the <br />{' '}
                 individual patient record and all transactions within <br />{' '}
                 the, patient log as portable, accessible and secure as <br /> an
@@ -176,7 +176,7 @@ const Products = () => {
             <Image
               src="/images/solar-panels.svg"
               alt="solar-panel"
-              className="w-[280px] h-[280px] lg:w-[400px] lg:h-[400px]"
+              className="w-[300px] h-[300px] lg:w-[400px] lg:h-[400px]"
               width={400}
               height={400}
             />

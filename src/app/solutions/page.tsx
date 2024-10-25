@@ -7,8 +7,8 @@ const Solutions = () => {
       <HeroSection />
       <section className="flex flex-col items-center bg-neutral">
         <div className="flex flex-col lg:flex-row items-center justify-center mt-[30px] space-y-6 lg:space-y-0 lg:space-x-6">
-          <div className="flex justify-center bg-[#F9F9D1] w-[280px] h-[280px] lg:w-[380px] lg:h-[350px] rounded-tl-[20px] rounded-tr-[80px] rounded-br-[20px] rounded-bl-[80px]">
-            <div className="w-full mt-[10px] ml-[20px] lg:ml-[30px] lg:mt-[20px] overflow-hidden">
+          <div className="flex justify-center bg-[#F9F9D1] w-[330px] h-[300px] px-4 lg:w-[400px] lg:h-[350px] lg:px-2 rounded-tl-[20px] rounded-tr-[80px] rounded-br-[20px] rounded-bl-[80px]">
+            <div className="w-full mt-[20px] ml-[15px] lg:ml-[15px] lg:mt-[20px] overflow-hidden">
               <Image
                 src="/images/grommet-icons_organization.svg"
                 alt="grommet-icon"
@@ -19,7 +19,7 @@ const Solutions = () => {
               <p className="text-secondary text-xs lg:text-[16px] font-semibold mt-[10px] lg:mt-[15px]">
                 SmartClinic for Organizations
               </p>
-              <p className="text-secondary text-[12px] lg:text-sm  font-normal mt-[5px] lg:mt-[15px] truncate break-words">
+              <p className="text-secondary text-[12px] lg:text-sm font-normal mt-[5px] lg:mt-[15px] whitespace-nowrap">
                 Lorem ipsum dolor sit amet consectetur. Eleifend leo <br />{' '}
                 nascetur id scelerisque facilisis morbi donec <br /> malesuada
                 sed. Diam bibendum feugiat eget neque <br /> risus. Odio
@@ -38,7 +38,7 @@ const Solutions = () => {
             <Image
               src="/images/doctor-laptop.svg"
               alt="doctor-laptop"
-              className="w-[280px] h-[280px] lg:w-[380px] lg:h-[380px]"
+              className="w-[300px] h-[300px] lg:w-[380px] lg:h-[380px]"
               width={380}
               height={380}
             />
@@ -50,14 +50,14 @@ const Solutions = () => {
             <Image
               src="/images/doctor-facetime.svg"
               alt="doctor-facetime"
-              className="w-[280px] h-[280px] lg:w-[380px] lg:h-[380px]"
+              className="w-[300px] h-[300px] lg:w-[380px] lg:h-[380px]"
               width={380}
               height={380}
             />
           </div>
 
-          <div className="flex justify-center bg-[#F9F9D1] w-[280px] h-[280px] lg:w-[380px] lg:h-[350px] rounded-tl-[20px] rounded-tr-[80px] rounded-br-[20px] rounded-bl-[80px]">
-            <div className="w-full mt-[10px] ml-[20px] lg:ml-[30px] lg:mt-[20px] overflow-hidden">
+          <div className="flex justify-center bg-[#F9F9D1] w-[330px] h-[300px] px-4 lg:w-[400px] lg:h-[350px] lg:px-2 rounded-tl-[20px] rounded-tr-[80px] rounded-br-[20px] rounded-bl-[80px]">
+            <div className="w-full mt-[20px] ml-[15px] lg:ml-[15px] lg:mt-[20px] overflow-hidden">
               <Image
                 src="/images/patient-icon.svg"
                 alt="patient-icon"
@@ -68,7 +68,7 @@ const Solutions = () => {
               <p className="text-secondary text-xs lg:text-[16px] font-semibold mt-[10px] lg:mt-[15px]">
                 SmartClinic for Patients
               </p>
-              <p className="text-secondary text-[12px] lg:text-sm  font-normal mt-[5px] lg:mt-[15px] truncate break-words">
+              <p className="text-secondary text-[12px] lg:text-sm  font-normal mt-[5px] lg:mt-[15px] whitespace-nowrap">
                 Lorem ipsum dolor sit amet consectetur. Eleifend leo <br />{' '}
                 nascetur id scelerisque facilisis morbi donec <br /> malesuada
                 sed. Diam bibendum feugiat eget neque <br /> risus. Odio
@@ -85,8 +85,8 @@ const Solutions = () => {
         </div>
 
         <div className="flex flex-col lg:flex-row items-center justify-center mt-[30px] space-y-6 lg:space-y-0 lg:space-x-6">
-          <div className="flex justify-center bg-[#F9F9D1] w-[280px] h-[280px] lg:w-[380px] lg:h-[350px] rounded-tl-[20px] rounded-tr-[80px] rounded-br-[20px] rounded-bl-[80px]">
-            <div className="w-full mt-[10px] ml-[20px] lg:ml-[30px] lg:mt-[20px] overflow-hidden">
+          <div className="flex justify-center bg-[#F9F9D1] w-[330px] h-[300px] px-4 lg:w-[400px] lg:h-[350px] lg:px-2 rounded-tl-[20px] rounded-tr-[80px] rounded-br-[20px] rounded-bl-[80px]">
+            <div className="w-full mt-[20px] ml-[15px] lg:ml-[15px] lg:mt-[20px] overflow-hidden">
               <Image
                 src="/images/patient-icon.svg"
                 alt="patient-icon"
@@ -97,7 +97,7 @@ const Solutions = () => {
               <p className="text-secondary text-xs lg:text-[16px] font-semibold mt-[10px] lg:mt-[15px]">
                 SmartClinic for Providers
               </p>
-              <p className="text-secondary text-[12px] lg:text-sm  font-normal mt-[5px] lg:mt-[15px] truncate break-words">
+              <p className="text-secondary text-[12px] lg:text-sm  font-normal mt-[5px] lg:mt-[15px] whitespace-nowrap">
                 Lorem ipsum dolor sit amet consectetur. Eleifend leo <br />{' '}
                 nascetur id scelerisque facilisis morbi donec <br /> malesuada
                 sed. Diam bibendum feugiat eget neque <br /> risus. Odio
@@ -116,7 +116,7 @@ const Solutions = () => {
             <Image
               src="/images/doctor-lab.svg"
               alt="doctor-lab"
-              className="w-[280px] h-[280px] lg:w-[380px] lg:h-[380px]"
+              className="w-[300px] h-[300px] lg:w-[380px] lg:h-[380px]"
               width={380}
               height={380}
             />
@@ -128,14 +128,14 @@ const Solutions = () => {
             <Image
               src="/images/man-meeting.svg"
               alt="man-meeting"
-              className="w-[280px] h-[280px] lg:w-[380px] lg:h-[380px]"
+              className="w-[300px] h-[300px] lg:w-[380px] lg:h-[380px]"
               width={380}
               height={380}
             />
           </div>
 
-          <div className="flex justify-center bg-[#F9F9D1] w-[280px] h-[280px] lg:w-[380px] lg:h-[350px] rounded-tl-[20px] rounded-tr-[80px] rounded-br-[20px] rounded-bl-[80px]">
-            <div className="w-full mt-[10px] ml-[20px] lg:ml-[30px] lg:mt-[20px] overflow-hidden">
+          <div className="flex justify-center bg-[#F9F9D1] w-[330px] h-[300px] px-4 lg:w-[400px] lg:h-[350px] lg:px-2 rounded-tl-[20px] rounded-tr-[80px] rounded-br-[20px] rounded-bl-[80px]">
+            <div className="w-full mt-[20px] ml-[15px] lg:ml-[15px] lg:mt-[20px] overflow-hidden">
               <Image
                 src="/images/file.svg"
                 alt="file-icon"
@@ -146,7 +146,7 @@ const Solutions = () => {
               <p className="text-secondary text-xs lg:text-[16px] font-semibold mt-[10px] lg:mt-[15px]">
                 SmartClinic for Planners
               </p>
-              <p className="text-secondary text-[12px] lg:text-sm  font-normal mt-[5px] lg:mt-[15px] truncate break-words">
+              <p className="text-secondary text-[12px] lg:text-sm  font-normal mt-[5px] lg:mt-[15px] whitespace-nowrap">
                 Lorem ipsum dolor sit amet consectetur. Eleifend leo <br />{' '}
                 nascetur id scelerisque facilisis morbi donec <br /> malesuada
                 sed. Diam bibendum feugiat eget neque <br /> risus. Odio
@@ -163,8 +163,8 @@ const Solutions = () => {
         </div>
 
         <div className="flex flex-col lg:flex-row items-center justify-center my-[30px] space-y-6 lg:space-y-0 lg:space-x-6">
-          <div className="flex justify-center bg-[#F9F9D1] w-[280px] h-[280px] lg:w-[380px] lg:h-[350px] rounded-tl-[20px] rounded-tr-[80px] rounded-br-[20px] rounded-bl-[80px]">
-            <div className="w-full mt-[10px] ml-[20px] lg:ml-[30px] lg:mt-[20px] overflow-hidden">
+          <div className="flex justify-center bg-[#F9F9D1] w-[330px] h-[300px] px-4 lg:w-[400px] lg:h-[350px] lg:px-2 rounded-tl-[20px] rounded-tr-[80px] rounded-br-[20px] rounded-bl-[80px]">
+            <div className="w-full mt-[20px] ml-[15px] lg:ml-[15px] lg:mt-[20px] overflow-hidden">
               <Image
                 src="/images/desktop-icon.svg"
                 alt="desktop-icon"
@@ -175,7 +175,7 @@ const Solutions = () => {
               <p className="text-secondary text-xs lg:text-[16px] font-semibold mt-[10px] lg:mt-[15px]">
                 SmartClinic for Developers
               </p>
-              <p className="text-secondary text-[12px] lg:text-sm  font-normal mt-[5px] lg:mt-[15px] truncate break-words">
+              <p className="text-secondary text-[12px] lg:text-sm  font-normal mt-[5px] lg:mt-[15px] whitespace-nowrap">
                 Lorem ipsum dolor sit amet consectetur. Eleifend leo <br />{' '}
                 nascetur id scelerisque facilisis morbi donec <br /> malesuada
                 sed. Diam bibendum feugiat eget neque <br /> risus. Odio
@@ -194,7 +194,7 @@ const Solutions = () => {
             <Image
               src="/images/developer.svg"
               alt="developer-img"
-              className="w-[280px] h-[280px] lg:w-[380px] lg:h-[380px]"
+              className="w-[300px] h-[300px] lg:w-[380px] lg:h-[380px]"
               width={380}
               height={380}
             />

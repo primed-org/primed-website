@@ -7,7 +7,7 @@ const Contact = () => {
       <section className="flex flex-col lg:flex-row items-center justify-between bg-[#F3F2F2] mb-[50px] w-[350px] h-[850px] lg:w-[1000px] lg:h-[500px] rounded-[15px] lg:px-6">
         <ContactForm />
         <div className="flex flex-col items-center mb-[50px] bg-[#252525] w-[300px] h-[300px] lg:w-[450px] lg:h-[400px] rounded-tl-[12px] rounded-bl-[12px]">
-          <div className="flex items-center justify-between lg:mt-[50px] space-y-6 lg:space-y-8 lg:space-x-6">
+          <div className="flex items-center justify-between lg:mt-[50px] lg:ml-[-50px] space-y-6 lg:space-y-8 lg:space-x-2">
             <Image
               src="/images/email-icon.svg"
               alt="email-icon"
@@ -19,7 +19,7 @@ const Contact = () => {
               info@primedEhealth.com
             </a>
           </div>
-          <div className="flex items-center justify-between mt-[30px] space-y-2 lg:space-y-4 lg:space-x-6">
+          <div className="flex items-center justify-between mt-[30px] lg:ml-[-50px] space-y-2 lg:space-y-4 lg:space-x-2">
             <Image
               src="/images/phone-icon.svg"
               alt="phone-icon"
@@ -31,7 +31,7 @@ const Contact = () => {
               +234 814 114 3029
             </p>
           </div>
-          <div className="flex items-center justify-between mt-[30px] space-y-6 lg:space-y-0 lg:space-x-6">
+          <div className="flex items-center justify-between mt-[30px] lg:ml-[-50px] space-y-6 lg:space-y-0 lg:space-x-2">
             <Image
               src="/images/office-icon.svg"
               alt="office-icon"
@@ -43,7 +43,7 @@ const Contact = () => {
               6b Ashabi Close, Ladegbuwa Plaza, <br /> Alausa Ikeja, Lagos.
             </p>
           </div>
-          <div className="flex items-center justify-between mt-[30px] mb-[20px] space-y-2 lg:space-y-4 lg:space-x-6">
+          <div className="flex items-center justify-between mt-[30px] lg:ml-[-50px] mb-[20px] space-y-2 lg:space-y-4 lg:space-x-2">
             <Image
               src="/images/time-icon.svg"
               alt="time-icon"
