@@ -1,7 +1,7 @@
 "use client";
 
 import Link from "next/link";
-import Img from "next/image";
+import Image from "next/image";
 import { usePathname } from "next/navigation";
 import { useState, useEffect } from "react";
 
@@ -11,6 +11,10 @@ export function Navbar() {
 
     const toggleMenu = () => {
         setIsOpen(!isOpen);
+    };
+
+    const closeMenu = () => {
+        setIsOpen(false);
     };
 
     useEffect(() => {
@@ -35,7 +39,7 @@ export function Navbar() {
         <nav className="w-full bg-white shadow-md fixed top-0 z-20">
             <div className="container mx-auto flex justify-between items-center py-4 px-6">
                 <div className="flex items-center">
-                    <Img className="w-10 h-10 mr-2" alt="Group" src="/images/icon.svg" />
+                    <Image className="w-10 h-10 mr-2" alt="Group" src="/images/icon.svg" width={40} height={40} />
                     <span className="text-primary font-bold text-lg">Primed E-Health</span>
                 </div>
 
@@ -57,7 +61,7 @@ export function Navbar() {
 
                     <div className="absolute top-0 w-full flex justify-between items-center px-6 py-4 md:hidden">
                         <div className="flex items-center">
-                            <Img className="w-10 h-10 mr-2" alt="Group" src="/images/icon.svg" />
+                            <Image className="w-10 h-10 mr-2" alt="Group" src="/images/icon.svg" width={40} height={40} />
                             <span className="text-primary font-bold text-lg">Primed E-Health</span>
                         </div>
                         <button onClick={toggleMenu} className="text-[#2B2A2A] font-bold focus:outline-">
@@ -68,22 +72,22 @@ export function Navbar() {
                     </div>
                 
                     <li className="text-secondary hover:text-primary mt-36 md:mt-0">
-                        <Link href="/" className={pathname === "/" ? "active" : "transition-all truncate hover:text-clip"}>Home</Link>
+                        <Link href="/" className={pathname === "/" ? "active" : "transition-all truncate hover:text-clip"} onClick={closeMenu} >Home</Link>
                     </li>
                     <li className="text-secondary hover:text-primary">
-                        <Link href="/about-us" className={pathname === "/about-us" ? "active" : "transition-all truncate hover:text-clip"}>About Us</Link>
+                        <Link href="/about-us" className={pathname === "/about-us" ? "active" : "transition-all truncate hover:text-clip"} onClick={closeMenu}>About Us</Link>
                     </li>
                     <li className="text-secondary hover:text-primary">
-                        <Link href="/solutions" className={pathname === "/solutions" ? "active" : "transition-all truncate hover:text-clip"}>Solutions</Link>
+                        <Link href="/solutions" className={pathname === "/solutions" ? "active" : "transition-all truncate hover:text-clip"} onClick={closeMenu}>Solutions</Link>
                     </li>
                     <li className="text-secondary hover:text-primary">
-                        <Link href="/products" className={pathname === "/products" ? "active" : "transition-all truncate hover:text-clip"}>Products</Link>
+                        <Link href="/products" className={pathname === "/products" ? "active" : "transition-all truncate hover:text-clip"} onClick={closeMenu}>Products</Link>
                     </li>
                     <li className="text-secondary hover:text-primary">
-                        <Link href="/contact" className={pathname === "/contact" ? "active" : "transition-all truncate hover:text-clip"}>Contact</Link>
+                        <Link href="/contact" className={pathname === "/contact" ? "active" : "transition-all truncate hover:text-clip"} onClick={closeMenu}>Contact</Link>
                     </li>
                     <li className="text-secondary hover:text-primary">
-                        <Link href="/blog" className={pathname === "/blog" ? "active" : "transition-all truncate hover:text-clip"}>Blog</Link>
+                        <Link href="/blog" className={pathname === "/blog" ? "active" : "transition-all truncate hover:text-clip"} onClick={closeMenu}>Blog</Link>
                     </li>
                 </ul>
             </div>
