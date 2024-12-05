@@ -6,7 +6,7 @@ const HeroSection = () => {
     <section>
       <div className="relative w-full h-[800px] flex">
         <Image
-          src="/images/Solutions_BG.svg"
+          src="/images/solution_bg.svg"
           className="w-full h-full object-cover"
           width={100}
           height={100}

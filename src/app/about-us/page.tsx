@@ -6,7 +6,7 @@ const About = () => {
   return (
     <>
       <div className="px-5 py-28 md:px-16 md:py-32">
-        <div className="grid md:grid-cols-2 justify-center items-center gap-16 text-[#555353] ">
+        <div className="bg-neutral grid md:grid-cols-2 justify-center items-center gap-16 text-[#555353] ">
           <div>
             <h1 className="font-semibold text-secondary text-[24px] leading-9 mb-5 ">
               Our mission
@@ -35,7 +35,7 @@ const About = () => {
         </div>
       </div>
 
-      <div className="bg-[#FAFADE] py-20 text-[#555353] ">
+      <div className="bg-neutral py-20 text-[#555353] ">
         <div className="grid md:grid-cols-3 gap-8 px-5 md:px-16 justify-center items-center">
           <div className="">
             <h1 className="text-secondary text-[24px] font-bold ">
@@ -65,7 +65,7 @@ const About = () => {
         </div>
       </div>
 
-      <div className="bg-primary text-white">
+      <div className="bg-[#CCD2D5] text-white">
         <div className="grid md:grid-cols-3 gap-8 justify-center items-center px-5 md:px-10 py-10 md:pb-20  ">
           <div className="col-span-2 order-2 md:order-1 ">
             <div className="flex flex-wrap justify-center items-center ">
@@ -240,7 +240,7 @@ const About = () => {
 
       <div className="bg-white py-20">
         <div className="flex flex-col-reverse justify-between items-center md:space-x-8 md:flex-row px-5 md:px-24">
-          <div className="grid grid-cols-2 gap-10 justify-center items-center">
+          <div className="grid grid-cols-2 gap-10 justify-center items-center opacity-10">
             <Image
               src="./images/bondinnov.svg"
               alt=""
