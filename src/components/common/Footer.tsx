@@ -1,4 +1,5 @@
 import Image from 'next/image';
+import Link from 'next/link';
 export function Footer() {
   return (
     <footer className="w-full h-full bg-[#272727] text-white py-4 bottom-0">
@@ -33,6 +34,9 @@ export function Footer() {
               <a className="hover:text-primary cursor-pointer text-xs">
                 Developers
               </a>
+              <Link href="/data-deletion" className="hover:text-primary cursor-pointer text-xs">
+                Data Deletion
+              </Link>
             </div>
           </div>
           <div className="w-full md:w-auto flex flex-col leading-10">
