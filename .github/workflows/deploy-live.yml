@@ -35,3 +35,4 @@ jobs:
           port: ${{ secrets.SSH_PORT }}
           source: "out/*"
           target: "/home/primvbmo/public_html/"
+          overwrite: true
