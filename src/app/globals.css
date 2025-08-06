@@ -1,33 +1,75 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss";
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+@plugin "daisyui" {
+    themes: false;
 }
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
-}
-
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+@plugin "daisyui/theme" {
+    name: primed;
+    default: true;
+    --color-primary: #BE1111;
+    --color-secondary: oklch(0.2655 0.0015 17.25);
+    --color-primedText: #555353;
+    --color-primedFooter: #272727;
+    --color-primedService: #F6B0CA;
+    --color-footerTextColor: #EFEBEB;
+    --color-neutral: #FFFFFF;
+    --color-success: #00FF00;
+    --color-warning: #FFCC00;
+    --color-error: #FF0000;
 }
 
 @layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
+    :root {
+        --foreground-rgb: 0, 0, 0;
+        --background-start-rgb: 214, 219, 220;
+        --background-end-rgb: 255, 255, 255;
+    }
+
+    @media (prefers-color-scheme: dark) {
+        :root {
+            --foreground-rgb: 255, 255, 255;
+            --background-start-rgb: 0, 0, 0;
+            --background-end-rgb: 0, 0, 0;
+        }
+    }
+
+    body {
+        margin: 0;
+        padding: 0;
+        height: 100%;
+        color: rgb(var(--foreground-rgb));
+        background: #fff;
+    }
+
+    .text-balance {
+        text-wrap: balance;
+    }
 }
+
+.highlight,
+.active {
+    position: relative;
+}
+
+.active::before {
+    content: '';
+    width: 50px;
+    height: 3px;
+    background: #be1111;
+    position: absolute;
+    top: 25px;
+    justify-content: center;
+}
+
+.active {
+    font-size: 16px;
+    font-weight: 700;
+}
+
+@theme {
+    --backgroundImage: {
+    "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
+    "gradient-conic": "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))"
+    }
+}
+
