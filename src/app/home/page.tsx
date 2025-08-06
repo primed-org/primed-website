@@ -45,7 +45,7 @@ const HomePage = () => {
         <div className="grid md:grid-cols-3 gap-10 text-center">
           <div className="relative overflow-hidden p-5">
             {/* Background Gradient */}
-            <div className="absolute bottom-5 -left-32 w-full rounded-full  inset-0 bg-gradient-to-t from-[#ffedee] to-transparent z-0"></div>
+            <div className="absolute bottom-5 -left-32 w-full rounded-full  inset-0 bg-linear-to-t from-[#ffedee] to-transparent z-0"></div>
             <Image
               src="/images/iPhone.svg"
               alt="iPhone"
@@ -63,7 +63,7 @@ const HomePage = () => {
           </div>
 
           <div className="relative overflow-hidden p-5">
-            <div className="absolute bottom-10 w-full rounded-full  inset-0 bg-gradient-to-t from-[#faf2f2] to-transparent z-0"></div>
+            <div className="absolute bottom-10 w-full rounded-full  inset-0 bg-linear-to-t from-[#faf2f2] to-transparent z-0"></div>
             <Image
               src="/images/card.svg"
               alt="Card"
@@ -81,7 +81,7 @@ const HomePage = () => {
           </div>
 
           <div className="relative overflow-hidden p-5">
-            <div className="absolute left-20 bottom-10 w-full rounded-full inset-0 bg-gradient-to-t from-[#ffedee] to-transparent z-0"></div>
+            <div className="absolute left-20 bottom-10 w-full rounded-full inset-0 bg-linear-to-t from-[#ffedee] to-transparent z-0"></div>
             <Image
               src="/images/hp.svg"
               alt="hp"

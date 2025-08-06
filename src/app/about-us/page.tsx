@@ -208,8 +208,8 @@ const About = () => {
             </div>
             <div className="justify-between items-end space-x-0 mb-12 md:flex md:space-x-10">
               <Image
-                src="images/usman.png"
-                alt="Esther"
+                src="/images/usman.png"
+                alt="Usman"
                 width={250}
                 height={250}
                 className="mb-5 md:mb-0 rounded"

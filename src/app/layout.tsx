@@ -1,10 +1,10 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+import { Nunito } from "next/font/google";
 import "./globals.css";
 import { Header } from "@/components/common/Header";
 import { Footer } from "@/components/common/Footer";
 
-const inter = Inter({ subsets: [ "latin" ] });
+const nunito = Nunito({ subsets: [ "latin" ] });
 
 export const metadata: Metadata = {
 	title: "Primed E-Health",
@@ -14,7 +14,7 @@ export const metadata: Metadata = {
 export default function RootLayout ({ children }: Readonly<{ children: React.ReactNode; }>) {
 	return (
 		<html lang="en">
-		<body className={ inter.className }>
+		<body className={ nunito.className }>
 		<Header/>
 		<main className="flex min-h-screen flex-col items-center justify-between">
 			{ children }
