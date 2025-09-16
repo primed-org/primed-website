@@ -34,8 +34,11 @@ export function Footer() {
               <a className="hover:text-primary cursor-pointer text-xs">
                 Developers
               </a>
-              <Link href="/data-deletion" className="hover:text-primary cursor-pointer text-xs">
-                Data Deletion
+              <Link href="/telehealth-data-deletion" className="hover:text-primary cursor-pointer text-xs">
+                Telehealth Data Deletion
+              </Link>
+              <Link href="/smartcard-data-deletion" className="hover:text-primary cursor-pointer text-xs">
+                Smartcard Data Deletion
               </Link>
             </div>
           </div>
