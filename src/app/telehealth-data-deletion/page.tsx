@@ -1,8 +1,10 @@
+'use client';
+
 import Image from 'next/image';
 import Link from 'next/link';
 
+const TelehealthDataDeletion = () => {
 
-const DataDeletion = () => {
     return (
         <div className="w-full flex flex-col items-start mt-[100px] pl-[50px]">
             <h1 className='text-2xl font-bold text-black'>Data Deletion Policy for Telehealth App</h1>
@@ -107,4 +109,4 @@ const DataDeletion = () => {
     );
 };
 
-export default DataDeletion;
+export default TelehealthDataDeletion;
