@@ -61,6 +61,9 @@ export function Footer() {
                 Need Help?
               </a>
               <a className="hover:text-primary cursor-pointer text-xs">Contact</a>
+              <Link href="/telehealth-privacy-policy" className="hover:text-primary cursor-pointer text-xs">
+                Telehealth Privacy Policy
+              </Link>
             </div>
           </div>
         </div>
