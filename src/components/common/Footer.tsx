@@ -64,6 +64,9 @@ export function Footer() {
               <Link href="/telehealth-privacy-policy" className="hover:text-primary cursor-pointer text-xs">
                 Telehealth Privacy Policy
               </Link>
+              <Link href="/smartcard-privacy-policy" className="hover:text-primary cursor-pointer text-xs">
+                Smartcard Privacy Policy
+              </Link>
             </div>
           </div>
         </div>
