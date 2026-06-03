@@ -16,7 +16,7 @@ const HeroSection = () => {
           <p className="text-[28px] font-bold leading-8">
             Our Product makes Us <br /> stand out
           </p>
-          <p className="text-[16px] font-normal text-primedText mt-[20px]">
+          <p className="text-[16px] font-normal text-secondary mt-[20px]">
             Primed E-Health is at the heart of solving the hassles <br /> of day-to-day
             dealings associated with the health <br /> sector. Our Legacy EMR, Patient
             Smartcard

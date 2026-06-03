@@ -13,10 +13,18 @@ interface ButtonProps {
     | 'success'
     | 'warning'
     | 'error';
-    className?: string;
+  className?: string;
+  type?: 'button' | 'submit' | 'reset';
+  disabled?: boolean;
 }
 
-const Button: React.FC<ButtonProps> = ({ label, variant = 'primary', className }) => {
+const Button: React.FC<ButtonProps> = ({
+  label,
+  variant = 'primary',
+  className,
+  type = 'button',
+  disabled = false,
+}) => {
   // Set up variant-based class names for colors
   const baseClass = 'px-20 py-2 rounded-md text-base font-normal ';
 
@@ -35,7 +43,9 @@ const Button: React.FC<ButtonProps> = ({ label, variant = 'primary', className }
 
   return (
     <button
-      className={`${baseClass} ${variantClass[variant]} ${className}`}
+      type={type}
+      disabled={disabled}
+      className={`${baseClass} ${variantClass[variant]} ${disabled ? 'cursor-not-allowed opacity-60' : ''} ${className}`}
     >
       {label}
     </button>

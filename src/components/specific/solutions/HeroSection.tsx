@@ -17,7 +17,7 @@ const HeroSection = () => {
             We exist for different types of <br />{' '}
             <span className="text-primary">Users</span>
           </p>
-          <p className="text-[16px] font-normal text-primedText mt-[20px]">
+          <p className="text-[16px] font-normal text-secondary mt-[20px]">
             Primed E-Health is at the heart of solving the <br /> hassles of
             day-to-day dealings associated with the <br /> health sector
           </p>
