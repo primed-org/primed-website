@@ -17,7 +17,13 @@ const TalentPipelineForm = () => {
                     </p>
                 </div>
 
-                <iframe aria-label='Employment Separation Form' frameBorder="0" style={{height: '500px', width: '99%', border: 'none'}} src='https://forms.zohopublic.com/usmanogunsolaprimed1/form/EmploymentSeparationForm/formperma/qPuPRNpI3SCxfHDT4dkfAaG3nTYerMMG7REpLlXgKJk' >
+                <iframe
+                    // onLoad={() => window.parent.scrollTo(0, 0)}
+                    height="750"
+                    // frameBorder="0" scrolling="yes"
+                    style={{ width: '100%', border: 'none' }}
+                    src="https://primedpeopleops.formaloo.co/2m64jw"
+                    id="formalooIframe">
                 </iframe>
             </div>
         </section>
