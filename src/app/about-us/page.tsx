@@ -71,7 +71,7 @@ const About = () => {
             <div className="flex flex-wrap justify-center items-center ">
               <div className="w-full md:w-1/2 pb-16 md:pb-0 md:p-10">
                 <Image
-                  src="./images/mountain.svg"
+                  src="/images/mountain.svg"
                   alt="mountain"
                   width={40}
                   height={40}
@@ -86,7 +86,7 @@ const About = () => {
               </div>
               <div className="w-full md:w-1/2 pb-16 md:pb-0 md:p-10">
                 <Image
-                  src="./images/human.svg"
+                  src="/images/human.svg"
                   alt="human_female_dance"
                   width={40}
                   height={40}
@@ -101,7 +101,7 @@ const About = () => {
               </div>
               <div className="w-full md:w-1/2 pb-16 md:pb-0 md:p-10">
                 <Image
-                  src="./images/team.svg"
+                  src="/images/team.svg"
                   alt="team_work"
                   width={40}
                   height={40}
@@ -116,7 +116,7 @@ const About = () => {
               </div>
               <div className="w-full md:w-1/2 pb-16 md:pb-0 md:p-10">
                 <Image
-                  src="./images/communication.svg"
+                  src="/images/communication.svg"
                   alt="communication"
                   width={40}
                   height={40}
@@ -242,27 +242,27 @@ const About = () => {
         <div className="flex flex-col-reverse justify-between items-center md:space-x-8 md:flex-row px-5 md:px-24">
           <div className="grid grid-cols-2 gap-10 justify-center items-center opacity-10">
             <Image
-              src="./images/bondinnov.svg"
+              src="/images/bondinnov.svg"
               alt=""
               width={228}
               height={42}
             />
             <Image
-              src="./images/lagos_state.svg"
+              src="/images/lagos_state.svg"
               alt=""
               width={91}
               height={91}
             />
             <Image
-              src="./images/wema_bank.svg"
+              src="/images/wema_bank.svg"
               alt=""
               width={264}
               height={36}
             />
-            <Image src="./images/nccgovng.svg" alt="" width={124} height={70} />
-            <Image src="./images/bao.svg" alt="" width={149} height={37} />
+            <Image src="/images/nccgovng.svg" alt="" width={124} height={70} />
+            <Image src="/images/bao.svg" alt="" width={149} height={37} />
             <Image
-              src="./images/first_bank.svg"
+              src="/images/first_bank.svg"
               alt=""
               width={280}
               height={51}
