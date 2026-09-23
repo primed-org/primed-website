@@ -197,6 +197,18 @@ export function Navbar() {
               Blog
             </Link>
           </li>
+          <li className="text-secondary hover:text-primary">
+            <Link
+              href="/careers"
+              className={
+                pathname === '/careers'
+                  ? 'active'
+                  : 'transition-all truncate hover:text-clip'
+              }
+            >
+              Careers
+            </Link>
+          </li>
         </ul>
       </div>
     </nav>

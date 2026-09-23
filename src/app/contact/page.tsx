@@ -4,7 +4,7 @@ import Image from 'next/image';
 const Contact = () => {
   return (
     <div className="w-full flex flex-col items-center mt-[100px]">
-      <section className="flex flex-col lg:flex-row items-center justify-between bg-[#F3F2F2] mb-[50px] w-[350px] h-[850px] lg:w-[1000px] lg:h-[500px] rounded-[15px] lg:px-6">
+      <section className="flex flex-col lg:flex-row-reverse items-center justify-between bg-[#F3F2F2] mb-[50px] w-[350px] h-[800px] lg:w-[1000px] lg:h-[750px] rounded-[15px] lg:px-6">
         <ContactForm />
         <div className="flex flex-col items-center mb-[50px] bg-[#252525] w-[300px] h-[300px] lg:w-[450px] lg:h-[400px] rounded-tl-[12px] rounded-bl-[12px]">
           <div className="flex items-center justify-between lg:mt-[50px] lg:ml-[-50px] space-y-6 lg:space-y-8 lg:space-x-2">
